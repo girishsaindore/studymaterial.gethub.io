@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title> Fill Form </title>
+</head>
+<style>
+ body{
+       background:red;
+       
+       
+ }
+ 
+ form{
+       background:yellow;
+       
+ }
+</style>
+
+</head>
+
+<body>
+  <form name="formLoginPage" action="Mainpage.html" method="POST">
+    <fieldset>
+
+       <label for="cname"><b> College Name</b></label>
+       <input type="text"  required name="cname" > <br><br>
+
+       <label for="myName"><b> Name </b></label>
+       <input type="text" required name="myName" > <br><br>
+
+       <label for="MyEmail"><b> E-mail ID </b></label>
+       <input type="email"   required name="myEmail" > <br><br>
+
+       <label for="myNumber"><b> Mob Number </b></label>
+       <input type="number" required name="myNumber"> <br><br>
+ 
+       <label for="one"><b> Class </b></label>
+       <select>
+           <option selected value="se" 
+           required id="one">   Select       </option>
+           <option value="sy" required id="one">             Sy-Computer  </option>
+           <option value="ty" required id="one">             Ty-Computer  </option>
+       </select><br><br>
+
+       <label ><b> Gender </b></label>
+
+       <input type="radio" required name="male">
+       <label for="male"> Male </label> 
+
+       <input type="radio" required name="male">
+       <label for="female"> Female </label>
+       <br><br>
+
+       <label for="myDate"><b> Birth Date </b></label>
+       <input type="date" required name="myDate">
+       <br><br>
+       
+       <input name="formSubmit" 
+       type="Submit">
+       
+       <input type="reset" >
+         
+     </fieldset>
+   </form>
+ </body>
+</html>  
